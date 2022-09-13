@@ -1,5 +1,15 @@
 en:
   layouts:
+    footer:
+      news: "News"
+      about: "About"
+      contact: "Contact"
+      description_html: "The <a href=\"%{link_rails}\">Ruby on Rails Tutorial </a>by <a href=\"%{link_author}\">Michael Hartl</a>"
+    header:
+      app_name: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
     application:
       title_description: "Ruby on Rails Tutorial Sample App"
   static_pages:
@@ -20,3 +30,7 @@ en:
       app_welcome: "Welcome to the Sample App"
       signup_now: "Sign up now!"
       description_html: "This is the home page for the <a href=\"%{link_tutorial}\">Ruby on Rails Tutorial</a> sample application."
+  users:
+    new:
+      title: "Sign up"
+      description: "This will be a signup page for new users."

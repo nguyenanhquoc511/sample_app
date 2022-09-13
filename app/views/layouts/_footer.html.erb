@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t "layouts.footer.description_html",
+        link_rails: "https://www.railstutorial.org/",
+        link_author: "https://www.michaelhartl.com/" %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to (t ".about"), about_path %></li>
+      <li><%= link_to (t ".contact"), contact_path %></li>
+      <li><a href="https://news.railstutorial.org/"><%= t ".news" %></a></li>
+    </ul>
+  </nav>
+</footer>

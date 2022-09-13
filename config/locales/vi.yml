@@ -1,5 +1,15 @@
 vi:
   layouts:
+    footer:
+      news: "Tin tức"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      description_html: "Các <a href=\"%{link_rails}\">Hướng dẫn sử dụng Ruby on Rails </a>bởi <a href=\"%{link_author}\">Michael Hartl</a>"
+    header:
+      app_name: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
     application:
       title_description: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   static_pages:
@@ -20,3 +30,7 @@ vi:
       app_welcome: "Chào mừng bạn đến với ứng dụng mẫu"
       signup_now: "Đăng ký ngay!"
       description_html: "Đây là trang chủ của <a href=\"%{link_tutorial}\">Hướng dẫn sử dụng Ruby on Rails</a> ứng dụng mẫu."
+  users:
+    new:
+      title: "Đăng ký"
+      description: "Đây sẽ là trang đăng ký cho người dùng mới."
