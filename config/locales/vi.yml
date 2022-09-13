@@ -1,0 +1,22 @@
+vi:
+  layouts:
+    application:
+      title_description: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  static_pages:
+    about:
+      title: "Về chúng tôi"
+      description_html: "Các <a href=\"%{link_tutorial}\"><em>Hướng dẫn sử dụng Ruby on Rails</em></a>, là một phần của <a href=\"%{link_learn_enough}\">Học đủ</a>
+                         gia đình hướng dẫn, là một <a href=\"%{link_book}\">sách</a> và <a href=\"%{link_screencast}\">loạt phim truyền hình</a>
+                         dạy phát triển web với <a href=\"%{link_rails}\">Ruby on Rails</a>. Đây là ứng dụng mẫu cho hướng dẫn."
+    contact:
+      title: "Liên hệ"
+      description_html: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại <a href=\"%{link_contact}\">Trang liên hệ</a>"
+    help:
+      title: "Trợ giúp"
+      description_html: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href=\"%{link_help}\">Trang trợ giúp Hướng dẫn về Rails</a>
+                        . Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href=\"%{link_book}\"><em>Sách Hướng dẫn sử dụng Ruby on Rails</em></a>."
+    home:
+      title: "Trang chủ"
+      app_welcome: "Chào mừng bạn đến với ứng dụng mẫu"
+      signup_now: "Đăng ký ngay!"
+      description_html: "Đây là trang chủ của <a href=\"%{link_tutorial}\">Hướng dẫn sử dụng Ruby on Rails</a> ứng dụng mẫu."
