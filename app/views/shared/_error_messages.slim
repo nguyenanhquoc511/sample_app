@@ -1,0 +1,8 @@
+- if @user.errors.present?
+  #error_explanation
+    .alert.alert-danger
+      = t "shared.error_messages", count: @user.errors.size
+    ul
+      - @user.errors.full_messages.each do |msg|
+        li
+          = msg
