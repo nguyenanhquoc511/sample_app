@@ -12,19 +12,21 @@ en:
       login: "Log in"
     application:
       title_description: "Ruby on Rails Tutorial Sample App"
+  shared:
+    error_messages: "The form contains %{number_error}."
   static_pages:
     about:
       title: "About"
       description_html: "The <a href=\"%{link_tutorial}\"><em>Ruby on Rails Tutorial</em></a>, part of the <a href=\"%{link_learn_enough}\">Learn Enough</a>
-                         family of tutorials, is a <a href=\"%{link_book}\">book</a> and <a href=\"%{link_screencast}\">screencast series</a>
-                         to teach web development with <a href=\"%{link_rails}\">Ruby on Rails</a>. This is the sample app for the tutorial."
+                        family of tutorials, is a <a href=\"%{link_book}\">book</a> and <a href=\"%{link_screencast}\">screencast series</a>
+                        to teach web development with <a href=\"%{link_rails}\">Ruby on Rails</a>. This is the sample app for the tutorial."
     contact:
       title: "Contact"
       description_html: "Contact the Ruby on Rails Tutorial about the sample app at the <a href=\"%{link_contact}\">contact page</a>"
     help:
       title: "Help"
       description_html: "Get help on the Ruby on Rails Tutorial at the <a href=\"%{link_help}\">Rails Tutorial help page</a>.
-                         To get help on this sample app, see the <a href=\"%{link_book}\"><em>Ruby on Rails Tutorial</em> book</a>."
+                        To get help on this sample app, see the <a href=\"%{link_book}\"><em>Ruby on Rails Tutorial</em> book</a>."
     home:
       title: "Home"
       app_welcome: "Welcome to the Sample App"
@@ -33,4 +35,10 @@ en:
   users:
     new:
       title: "Sign up"
-      description: "This will be a signup page for new users."
+      create_my_account: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+  users_controller:
+    welcome_message: "Welcome to the Sample App!"

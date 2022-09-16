@@ -12,12 +12,14 @@ vi:
       login: "Đăng nhập"
     application:
       title_description: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  shared:
+    error_messages: "Mẫu chứa %{number_error}."
   static_pages:
     about:
       title: "Về chúng tôi"
       description_html: "Các <a href=\"%{link_tutorial}\"><em>Hướng dẫn sử dụng Ruby on Rails</em></a>, là một phần của <a href=\"%{link_learn_enough}\">Học đủ</a>
-                         gia đình hướng dẫn, là một <a href=\"%{link_book}\">sách</a> và <a href=\"%{link_screencast}\">loạt phim truyền hình</a>
-                         dạy phát triển web với <a href=\"%{link_rails}\">Ruby on Rails</a>. Đây là ứng dụng mẫu cho hướng dẫn."
+                        gia đình hướng dẫn, là một <a href=\"%{link_book}\">sách</a> và <a href=\"%{link_screencast}\">loạt phim truyền hình</a>
+                        dạy phát triển web với <a href=\"%{link_rails}\">Ruby on Rails</a>. Đây là ứng dụng mẫu cho hướng dẫn."
     contact:
       title: "Liên hệ"
       description_html: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại <a href=\"%{link_contact}\">Trang liên hệ</a>"
@@ -33,4 +35,10 @@ vi:
   users:
     new:
       title: "Đăng ký"
-      description: "Đây sẽ là trang đăng ký cho người dùng mới."
+      create_my_account: "Tạo tài khoản của tôi"
+      name: "Tên"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận lại"
+  users_controller:
+    welcome_message: "Chào mừng đến ứng dụng mẫu!"

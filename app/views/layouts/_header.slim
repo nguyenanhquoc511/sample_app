@@ -1,0 +1,11 @@
+header.navbar.navbar-fixed-top.navbar-inverse
+  .container
+    = link_to (t ".app_name"), "#", id: "logo"
+    nav
+      ul.nav.navbar-nav.navbar-right
+        li
+          = link_to (t ".home"), root_path
+        li
+          = link_to (t ".help"), help_path
+        li
+          = link_to (t ".login")
