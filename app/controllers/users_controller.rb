@@ -5,6 +5,7 @@ class UsersController < ApplicationController
   end
 
   def new
+    # flash[:success] = "ABCD"
     @user = User.new
   end
 
@@ -14,12 +15,14 @@ class UsersController < ApplicationController
       flash[:success] = t "users_controller.welcome_message"
       redirect_to @user
     else
-      render "new"
+      flash.now[:danger] = @user.errors.full_messages
+      render :new
     end
   end
 
   private
-    def user_params
-      params.require(:user).permit(:name, :email, :password, :password_confirmation)
-    end
+
+  def user_params
+    params.require(:user).permit(:name, :email, :password, :password_confirmation)
+  end
 end

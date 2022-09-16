@@ -1,10 +1,12 @@
 - if user.errors.present?
+  | A
+  = user.errors.full_messages.join(',')
   #error_explanation
     .alert.alert-danger
-      |  t ".error_messages", number_error:
-      = pluralize(user.errors.count, "error")
-      | .
-    ul
-      - user.errors.full_messages.each do |msg|
-        li
-          = msg
+      / = t ".error_messages", number_error
+      / = pluralize(user.errors.count, "error")
+      / | .
+    / ul
+      / - user.errors.full_messages.each do |msg|
+      /   li
+      /     = msg

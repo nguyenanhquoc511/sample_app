@@ -3,8 +3,9 @@ h1
   = t ".title"
 .row
   .col-md-6.col-md-offset-3
+    = @user.errors.full_messages
     = form_with(model: @user, local: true) do |f|
-      = render partial: "shared/error_messages", locals: { user: @user }
+      / = render partial: "shared/error_messages", locals: { user: @user }
       = f.label :name, (t ".name")
       = f.text_field :name, class: "form-control"
       = f.label :email, (t ".email")

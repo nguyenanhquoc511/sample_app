@@ -3,8 +3,8 @@ html
   head
     title
       = yield(:title)
-      |  | 
-      = t ".title_description"
+      | |
+      =  t ".title_description"
     meta[name="viewport" content="width=device-width,initial-scale=1"]
     = csrf_meta_tags
     = csp_meta_tag
@@ -14,9 +14,7 @@ html
     = render "layouts/header"
     .container
       - flash.each do |message_type, message|
-        |  <div class="alert alert-
-        = message_type
-        | ">
-        = message
+        .alert(class="alert-#{message_type}")
+          = message
     = yield
     = render "layouts/footer"
