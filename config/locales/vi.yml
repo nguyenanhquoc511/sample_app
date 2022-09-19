@@ -9,9 +9,21 @@ vi:
       app_name: "Ứng dụng mẫu"
       home: "Trang chủ"
       help: "Trợ giúp"
+      users: "Người dùng"
+      profile: "Trang cá nhân"
+      settings: "Cài đặt"
+      account: "Tài khoản"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
     application:
       title_description: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  sessions:
+    new:
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      login: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng kí ngay!"
   shared:
     error_messages:
       one: "Mẫu đơn có %{count} lỗi."
@@ -42,5 +54,7 @@ vi:
       email: "Thư điện tử"
       password: "Mật khẩu"
       confirmation: "Xác nhận lại"
+  sessions_controller:
+    invalid_data: "Thư điện tử/Mật khẩu không đúng"
   users_controller:
     welcome_message: "Chào mừng đến ứng dụng mẫu!"
