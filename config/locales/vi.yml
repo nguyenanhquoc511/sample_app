@@ -24,6 +24,7 @@ vi:
       login: "Đăng nhập"
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng kí ngay!"
+      remember: "Ghi nhớ tôi trên máy tính này"
   shared:
     error_messages:
       one: "Mẫu đơn có %{count} lỗi."

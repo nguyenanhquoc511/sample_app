@@ -24,6 +24,7 @@ en:
       login: "Log in"
       new_user: "New user?"
       sign_up_now: "Sign up now!"
+      remember: "Remember me on this computer"
   shared:
     error_messages:
       one: "The form contains %{count} error."
