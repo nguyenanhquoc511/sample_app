@@ -15,6 +15,7 @@ Rails.application.configure do
   config.active_storage.service = :test
   config.action_mailer.perform_caching = false
   config.action_mailer.delivery_method = :test
+  config.action_mailer.default_url_options = { host: "example.com" }
   config.active_support.deprecation = :stderr
   config.active_support.disallowed_deprecation = :raise
   config.active_support.disallowed_deprecation_warnings = []

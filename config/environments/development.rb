@@ -19,9 +19,12 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  host = "example.com"
+
   config.active_storage.service = :local
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.perform_caching = false
+  config.action_mailer.default_url_options = { host: host, protocol: "https" }
   config.active_support.deprecation = :log
   config.active_support.disallowed_deprecation = :raise
   config.active_support.disallowed_deprecation_warnings = []
