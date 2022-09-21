@@ -24,6 +24,7 @@ en:
       login: "Log in"
       new_user: "New user?"
       sign_up_now: "Sign up now!"
+      remember: "Remember me on this computer"
   shared:
     error_messages:
       one: "The form contains %{count} error."
@@ -47,6 +48,20 @@ en:
       signup_now: "Sign up now!"
       description_html: "This is the home page for the <a href=\"%{link_tutorial}\">Ruby on Rails Tutorial</a> sample application."
   users:
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+    edit:
+      title: "Edit user"
+      update_profile: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      save_changes: "Save changes"
+      change: "change"
+    index:
+      title: "All users"
     new:
       title: "Sign up"
       create_my_account: "Create my account"

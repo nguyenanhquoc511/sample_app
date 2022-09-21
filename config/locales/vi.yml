@@ -24,6 +24,7 @@ vi:
       login: "Đăng nhập"
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng kí ngay!"
+      remember: "Ghi nhớ tôi trên máy tính này"
   shared:
     error_messages:
       one: "Mẫu đơn có %{count} lỗi."
@@ -47,6 +48,20 @@ vi:
       signup_now: "Đăng ký ngay!"
       description_html: "Đây là trang chủ của <a href=\"%{link_tutorial}\">Hướng dẫn sử dụng Ruby on Rails</a> ứng dụng mẫu."
   users:
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn?"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      update_profile: "Cập nhật trang cá nhân của bạn"
+      name: "Tên"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận lại"
+      save_changes: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      title: "Tất cả người dùng"
     new:
       title: "Đăng ký"
       create_my_account: "Tạo tài khoản của tôi"
